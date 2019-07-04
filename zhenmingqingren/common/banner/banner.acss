@@ -1,0 +1,7 @@
+.banner-container {
+  width: 750rpx;
+}
+
+.banner-image {
+  width: 100%;
+}

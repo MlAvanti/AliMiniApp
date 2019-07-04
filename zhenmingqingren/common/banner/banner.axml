@@ -1,0 +1,3 @@
+<view class="banner-container">
+  <image class="banner-image" mode="scaleToFill" src="{{imageUrl}}" lazy-load="false" onLoad="" onError="" onTap="" catchTap=""/>
+</view>

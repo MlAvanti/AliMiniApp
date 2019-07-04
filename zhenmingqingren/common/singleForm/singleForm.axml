@@ -1,0 +1,21 @@
+<!--common/component/singleForm/singleForm.wxml-->
+<view class="form-container">
+  <view class="form-row">
+    <text class="form-txt">您的姓名</text>
+    <input class="form-input" type="text" placeholder="请输入您的姓名" value='{{userName}}' onInput="handleInput"/>
+  </view>
+  <view class="form-row">
+    <text class="form-txt">您的性别</text>
+    <radio-group onChange="handleRadioChange" class="form-rg">
+      <label a:for="{{radioData}}" a:for-item="item">
+        <radio class="" value="{{ item.value }}" disabled="{{ false }}" checked="{{ item.checked }}" color="" />
+        <text>{{ item.text }}</text>
+      </label>
+    </radio-group>
+  </view>
+  <view class="form-row">
+    <text class="form-txt">出生日期</text>
+    <view class="form-date" size="default" type="primary" onTap="handleDatePicker">{{datePick}}</view>
+  </view>
+  <button onTap='handleBtnFind'>马上找到你的真命情人</button>
+</view>
