@@ -1,0 +1,13 @@
+<view class="fiexd-bottom-button">
+  <view class="fiexd-btn">
+    <image
+      class="fiexd-image"
+      src="../../common/fiexdBottomButton/image/index_pop_btn.png"
+      mode="scaleToFill"
+      lazy-load="false"
+      binderror=""
+      bindload=""
+    >
+    </image>
+  </view>
+</view>
